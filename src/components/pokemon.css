@@ -1,0 +1,113 @@
+
+.collection-container {
+    color:#3d405b;
+    margin-top: 2rem;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.collection-container-active{
+    color:#3d405b;
+    margin-top: 2rem;
+    font-weight: 600;
+    overflow-y: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.overlay{
+    width:100vw;
+    height: 100vh;
+}
+.detail-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.detail-name{
+    font-size: 1.5rem;
+    color:#3d405b;
+    font-weight: 700;
+}
+.detail-info {
+    background-color: #f2cc8f;
+    background-image: linear-gradient(0deg, #f2cc8f 0%, #f8f3d9 100%);
+        width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-abitlity{
+    color: #3d405b;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.detail-skill {
+    align-self: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    gap:0.5rem;
+    margin: 1rem;
+    text-align: start;
+}
+.detail-close{ 
+    cursor: pointer;
+    margin: 1rem 1rem 0 auto;
+    font-size: 1.5rem;
+}
+.pokemon-name {
+    margin-top: 0.5rem;
+}
+.pokemon-list-container{
+    display: flex;
+    cursor:pointer;
+    flex-direction: column;
+    background-color: #f4f1de;
+    margin:1rem;
+    padding: 0 1rem;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-list-detailed {
+    background-color: #f4f1de;
+    position: absolute;
+    text-align:center;
+    width: 270px;
+    height: 300px;
+    top:30%;
+    left:41%;
+    border-radius: 12px;
+}
+
+.btn {
+    width: 50%;
+    margin-top: 1.5rem;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #81b29a;
+    color:#3d405b;
+    padding:0.5rem;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    border:none;
+    transition: 200ms ease-in-out;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #61997e;
+    color:#3d405b;
+    padding:0.5rem;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    border:none;}
