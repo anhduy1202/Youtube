@@ -22,6 +22,6 @@ app.use(morgan("common"));
 app.use("/v1/author", authorRoute);
 app.use("/v1/book", bookRoute);
 
-app.listen(8000, () => {
+app.listen(process.env.PORT || 8000, () => {
   console.log("Server is running...");
 });
