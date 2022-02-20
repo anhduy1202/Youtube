@@ -4,6 +4,7 @@ const app = express();
 const mongoose = require("mongoose");
 var bodyParser = require("body-parser");
 const morgan = require("morgan");
+const helmet = require("helmet");
 const dotenv = require("dotenv");
 const authorRoute = require("./routes/author");
 const bookRoute = require("./routes/book");
@@ -15,6 +16,7 @@ mongoose.connect((process.env.MONGODB_URL), () => {
 });
 
 app.use(bodyParser.json({limit:"50mb"}));
+app.use(helmet());
 app.use(cors());
 app.use(morgan("common"));
 
