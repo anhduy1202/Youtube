@@ -21,6 +21,9 @@ app.use(cors());
 app.use(morgan("common"));
 
 //ROUTES
+app.get("/", (req,res)=>{
+  res.status(200).json("Hi world");
+});
 app.use("/v1/author", authorRoute);
 app.use("/v1/book", bookRoute);
 
