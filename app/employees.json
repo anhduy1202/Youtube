@@ -1,0 +1,68 @@
+{
+    "employees": [
+        {
+            "name": "John Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jane Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jim Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jill Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jack Doe",
+            "role": "Employee"
+        }, 
+        {
+            "name": "Jen Doe",
+            "role": "Employee"
+        }, 
+        {
+            "name": "Jesse Doe",
+            "role": "Employee"
+        }, 
+        {
+            "name": "Jenny Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jared Doe",
+            "role": "Employee"
+        }, 
+        {
+            "name": "Jasmine Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jasper Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jax Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jade Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jude Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Jules Doe",
+            "role": "Customer"
+        }, 
+        {
+            "name": "Juno Doe",
+            "role": "Customer"
+        }
+    ]
+}
