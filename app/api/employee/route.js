@@ -1,7 +1,5 @@
 import { NextResponse } from 'next/server';
-import { cookies } from 'next/headers'
 import { checkRole } from '@/app/utils/roles';
-import employees from '@/app/employee/employees.json'
 
 export async function DELETE(req, res) {
   const request = await req.json()
